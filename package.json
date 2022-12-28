@@ -1,0 +1,21 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "express",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "golive": "lt --port 3000"
+  },
+  "author": "Rana",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "localtunnel": "^2.0.2",
+    "request": "^2.88.2",
+    "superheroes": "^3.0.0"
+  }
+}
